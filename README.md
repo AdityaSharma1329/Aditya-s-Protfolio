@@ -1,7 +1,6 @@
 <div align="center">
 
-<!-- This pulls your custom black, pixelated header into the profile -->
-<img src="./homepage.svg" width="100%" alt="Aditya's Portfolio Main Screen">
+<img src="./homepage.gif" width="100%" style="image-rendering: pixelated;" alt="Aditya's Portfolio">
 
 ---
 
