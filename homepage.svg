@@ -1,45 +1,48 @@
-<svg fill="none" viewBox="0 0 800 400" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-  <!-- Embedded Pixel Font and Flat Styles -->
+<svg fill="none" viewBox="0 0 800 350" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
-    
     .bg { fill: #000000; }
-    .title { font: 26px 'Press Start 2P', monospace; fill: #FFFFFF; text-anchor: middle; }
-    .subtitle { font: 12px 'Press Start 2P', monospace; fill: #555555; text-anchor: middle; }
-    
-    /* Flat Button Styling */
-    .btn-bg { fill: #222222; stroke: #444444; stroke-width: 2; cursor: pointer; }
-    .btn-bg:hover { fill: #BD1515; stroke: #FFFFFF; } /* Retro red hover effect */
-    .btn-text { font: 11px 'Press Start 2P', monospace; fill: #FFFFFF; text-anchor: middle; pointer-events: none; }
-    
-    /* Animation for the "Press Start" text */
+    .btn-bg { fill: #111111; stroke: #333333; stroke-width: 2; }
+    .fallback-text { font-family: monospace; font-size: 11px; fill: #ffffff; text-anchor: middle; }
     @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
-    .blink { animation: blink 1s infinite; fill: #FFD700; }
+    .blink { animation: blink 1.2s infinite; }
   </style>
 
   <!-- 1. Pure Black Background -->
   <rect width="100%" height="100%" class="bg" />
 
-  <!-- 2. Header Text -->
-  <text x="400" y="110" class="title">ADITYA'S PORTFOLIO</text>
-  <text x="400" y="160" class="subtitle blink">SELECT AN OPTION TO START</text>
-
-  <!-- 3. Flat Interactive Menu Buttons -->
-  <!-- PROJECTS BUTTON -->
-  <g class="button">
-    <rect x="120" y="240" width="160" height="45" class="btn-bg" />
-    <text x="200" y="267" class="btn-text">PROJECTS</text>
+  <!-- 2. "ADITYA" - Raw Vector Pixel Paths (Un-strippable by GitHub) -->
+  <g fill="#FFFFFF" transform="scale(3) translate(75, 25)">
+    <!-- A --> <path d="M3,0 h2 v5 h-2 z M3,2 h2 v1 h-2 z M2,1 h1 v4 h-1 z M5,1 h1 v4 h-1 z" />
+    <!-- D --> <path d="M8,0 h3 v5 h-3 z M9,1 h1 v3 h-1 z M11,1 h1 v3 h-1 z" />
+    <!-- I --> <path d="M14,0 h3 v1 h-3 z M15,1 h1 v3 h-1 z M14,4 h3 v1 h-3 z" />
+    <!-- T --> <path d="M18,0 h5 v1 h-5 z M20,1 h1 v4 h-1 z" />
+    <!-- Y --> <path d="M24,0 h1 v2 h-1 z M28,0 h1 v2 h-1 z M25,2 h3 v1 h-3 z M26,3 h1 v2 h-1 z" />
+    <!-- A --> <path d="M31,0 h2 v5 h-2 z M31,2 h2 v1 h-2 z M30,1 h1 v4 h-1 z M33,1 h1 v4 h-1 z" />
   </g>
 
-  <!-- RESUME BUTTON -->
-  <g class="button">
+  <!-- 3. Subtitle (Blinking Retro Prompt) -->
+  <g class="blink" fill="#FFD700" transform="scale(1.5) translate(175, 110)">
+    <path d="M10,0 h1 v1 h-1 z M11,1 h1 v1 h-1 z M10,2 h1 v1 h-1 z" /> <!-- > Arrow -->
+    <path d="M115,0 h1 v1 h-1 z M114,1 h1 v1 h-1 z M115,2 h1 v1 h-1 z" /> <!-- < Arrow -->
+  </g>
+  <text x="400" y="170" class="fallback-text" fill="#FFD700" letter-spacing="4">PRESS START TO BEGIN</text>
+
+  <!-- 4. Flat Buttons -->
+  <!-- PROJECTS -->
+  <g>
+    <rect x="110" y="240" width="160" height="45" class="btn-bg" />
+    <text x="190" y="266" class="fallback-text">=== PROJECTS ===</text>
+  </g>
+
+  <!-- RESUME -->
+  <g>
     <rect x="320" y="240" width="160" height="45" class="btn-bg" />
-    <text x="400" y="267" class="btn-text">RESUME</text>
+    <text x="400" y="266" class="fallback-text">=== RESUME ===</text>
   </g>
 
-  <!-- CONTACT BUTTON -->
-  <g class="button">
-    <rect x="520" y="240" width="160" height="45" class="btn-bg" />
-    <text x="600" y="267" class="btn-text">CONTACT</text>
+  <!-- CONTACT -->
+  <g>
+    <rect x="530" y="240" width="160" height="45" class="btn-bg" />
+    <text x="610" y="266" class="fallback-text">=== CONTACT ===</text>
   </g>
 </svg>
