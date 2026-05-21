@@ -2,24 +2,14 @@
 
 <!-- RETRO GAME TITLE BANNER -->
 # 🎮 ADITYA'S PORTFOLIO 🎮
-### Press Start to Begin
 
----
-
-<!-- CHARACTER / STATUS SCREEN -->
-| STATUS | PLAYER INFO |
-| :--- | :--- |
-| **Class:** | Indie Game Developer & Digital Artist |
-| **HP:** | 💯 / 100 |
-| **Mana:** | ⚡ Caffeinated |
-| **Current Quest:** | Leveling up game design & programming mechanics |
-
----
-
-<!-- GAME MENU NAVIGATION BUTTONS -->
-## 🕹️ SELECT YOUR OPTION
-
-[<img src="https://img.shields.io/badge/-PROJECTS-blue?style=for-the-badge&logo=retroarch&logoColor=white&color=bd1515" height="40">](#-featured-projects) &nbsp; [<img src="https://img.shields.io/badge/-RESUME-blue?style=for-the-badge&logo=googledocs&logoColor=white&color=15bd3c" height="40">](YOUR_RESUME_LINK_HERE) &nbsp; [<img src="https://img.shields.io/badge/-CONTACT-blue?style=for-the-badge&logo=gameandwatch&logoColor=white&color=1569bd" height="40">](#-connect-with-me)
+[<img src="https://img.shields.io/badge/-PROJECTS-blue?style=for-the-badge&logo=retroarch&logoColor=white&color=bd1515" height="40">](#-featured-projects) &nbsp; 
+<br>
+<br>
+[<img src="https://img.shields.io/badge/-RESUME-blue?style=for-the-badge&logo=googledocs&logoColor=white&color=15bd3c" height="40">](YOUR_RESUME_LINK_HERE) &nbsp; 
+<br>
+<br>
+[<img src="https://img.shields.io/badge/-CONTACT-blue?style=for-the-badge&logo=gameandwatch&logoColor=white&color=1569bd" height="40">](#-connect-with-me)
 
 ---
 
