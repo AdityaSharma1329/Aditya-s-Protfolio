@@ -1,0 +1,45 @@
+<svg fill="none" viewBox="0 0 800 400" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <!-- Embedded Pixel Font and Flat Styles -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
+    
+    .bg { fill: #000000; }
+    .title { font: 26px 'Press Start 2P', monospace; fill: #FFFFFF; text-anchor: middle; }
+    .subtitle { font: 12px 'Press Start 2P', monospace; fill: #555555; text-anchor: middle; }
+    
+    /* Flat Button Styling */
+    .btn-bg { fill: #222222; stroke: #444444; stroke-width: 2; cursor: pointer; }
+    .btn-bg:hover { fill: #BD1515; stroke: #FFFFFF; } /* Retro red hover effect */
+    .btn-text { font: 11px 'Press Start 2P', monospace; fill: #FFFFFF; text-anchor: middle; pointer-events: none; }
+    
+    /* Animation for the "Press Start" text */
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    .blink { animation: blink 1s infinite; fill: #FFD700; }
+  </style>
+
+  <!-- 1. Pure Black Background -->
+  <rect width="100%" height="100%" class="bg" />
+
+  <!-- 2. Header Text -->
+  <text x="400" y="110" class="title">ADITYA'S PORTFOLIO</text>
+  <text x="400" y="160" class="subtitle blink">SELECT AN OPTION TO START</text>
+
+  <!-- 3. Flat Interactive Menu Buttons -->
+  <!-- PROJECTS BUTTON -->
+  <g class="button">
+    <rect x="120" y="240" width="160" height="45" class="btn-bg" />
+    <text x="200" y="267" class="btn-text">PROJECTS</text>
+  </g>
+
+  <!-- RESUME BUTTON -->
+  <g class="button">
+    <rect x="320" y="240" width="160" height="45" class="btn-bg" />
+    <text x="400" y="267" class="btn-text">RESUME</text>
+  </g>
+
+  <!-- CONTACT BUTTON -->
+  <g class="button">
+    <rect x="520" y="240" width="160" height="45" class="btn-bg" />
+    <text x="600" y="267" class="btn-text">CONTACT</text>
+  </g>
+</svg>
